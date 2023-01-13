@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Nanum+Gothic+Coding:wght@400;700&family=Ubuntu+Mono:wght@400;700&family=Unbounded:wght@200;700;800&display=swap');
+
 * {
-    font-family: Roboto, Sans Serif, Arial;
-    color: aliceblue;
+    font-family: 'Cousine', 'Nanum Gothic Coding', 'Ubuntu Mono', 'Unbounded', monospace, cursive, Roboto, Sans Serif, Arial;
+    color: #DEE8EF;
     
-    background-color: #362F3E;
+    /* background-color: #362F3E; */
 	margin: 0px;
 	padding: 0px;
 	height: auto;

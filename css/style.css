@@ -1,6 +1,7 @@
 .container {
-    width: 1920px;
-    height: 1080px;
+    width: 1366px;
+    height: 768px;
+    background-color: #362F3E;
 }
 
 .flex {
@@ -31,6 +32,10 @@
     text-align: center;
 }
 
+.wrapper {
+    flex-wrap: wrap;
+}
+
 .content {
     background-color: unset;
     background-image: url('../assets/background.PNG');
@@ -38,6 +43,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
     height: 99%;
+    margin-bottom: 20px;
+}
+
+.content-area {
+    width: 49%;
 }
 
 .menu-navbar {
@@ -46,6 +56,58 @@
 
 .menu-nav-item {
     margin: 10px;
+    padding: 5px;
+}
+
+.hero-title {
+    margin-top: 150px;
+}
+
+.name-title {
+    margin-bottom: 50px;
+}
+
+.conhecimentos {
+    width: 70%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 3px;
+    background-color: black;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.idiomas {
+    width: 30%;
+    height: 150px;
+    margin-top: 400px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+.item-conhecimento {
+    padding: 2px;
+    margin: 2px;
+    border-radius: 15px;
+    background-color: #1D1D26;
+}
+
+.item-idioma {
+    padding: 2px;
+    margin: 2px;
+    border-radius: 15px;
+    background-color: #1D1D26;
+}
+
+.item-roxo {
+    background-color: #6824F4;
+}
+
+.item-vinho {
+    background-color: #26FEBF;
+    color: #484250;
 }
 
 .social-medias {
@@ -58,6 +120,90 @@
     .container {
         width: 2560px;
         height: 1440px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .container {
+        width: 1920px;
+        height: 1080px;
+    }
+
+    .conhecimentos {
+        width: 70%;
+        height: 200px;
+        margin-top: 250px;
+    }
+    
+    .idiomas {
+        width: 30%;
+        height: 200px;
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container {
+        width: 1600px;
+        height: 900px;
+    }
+
+    .conhecimentos {
+        width: 70%;
+        height: 200px;
+        margin-top: 230px;
+    }
+    
+    .idiomas {
+        width: 30%;
+        height: 200px;
+        margin-top: 535px;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .container {
+        width: 1518px;
+        height: 900px;
+    }
+
+    .conhecimentos {
+        width: 70%;
+        height: 200px;
+        margin-top: 220px;
+    }
+    
+    .idiomas {
+        width: 30%;
+        height: 200px;
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1440px;
+        height: 1080px;
+    }
+
+    .hero-title {
+        margin-top: 80px;
+    }
+    
+    .name-title {
+        margin-bottom: 40px;
+    }
+
+    .conhecimentos {
+        width: 70%;
+        height: 200px;
+        margin-top: 80px;
+    }
+    
+    .idiomas {
+        width: 30%;
+        height: 200px;
+        margin-top: 320px;
     }
 }
 
